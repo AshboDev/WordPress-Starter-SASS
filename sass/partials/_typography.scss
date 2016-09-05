@@ -1,0 +1,121 @@
+html {
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+	color: $base-text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $base-heading-color;
+	font-weight: 600;
+	margin: 1.5rem 0 2rem;
+}
+
+p {
+	line-height: $base-line-height;
+	margin: 0 0 1rem 0;
+}
+
+ol,
+ul {
+	list-style: initial;
+	padding: 20px;
+	margin: 1rem;
+
+	li {
+		line-height: $base-line-height;
+	}
+}
+
+ol {
+	list-style: decimal;
+}
+
+blockquote {
+	width: 100%;
+	max-width: 450px;
+	margin: 20px 0 20px 5%;
+	border: 1px solid #ccc;
+	padding: 15px;
+	border-left: 3px solid #ccc;
+	font-style: italic;
+}
+
+strong {
+	font-weight: $strong-font-weight;
+}
+
+code {
+	font-family: courier;
+}
+
+.abbr {
+	border-bottom: 1px dotted $base-text-color;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	color: $base-link-color;
+	text-decoration: none;
+	border-bottom: 1px solid $base-link-color;
+
+	&:hover {
+		border: 0;
+	}
+}
+
+@media screen and (min-width: $screen-sm-min) {
+	
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	h4 {
+		font-size: 1rem;
+	}
+
+	h5 {
+		font-size: 1rem;
+	}
+
+	h6 {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: $screen-md-min) {
+	
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2.8rem;
+	}
+
+	h3 {
+		font-size: 2.6rem;
+	}
+
+	h4 {
+		font-size: 2.4rem;
+	}
+
+	h5 {
+		font-size: 2rem;
+	}
+
+	h6 {
+		font-size: 1.8rem;
+	}
+}
