@@ -9,4 +9,6 @@ This is a collection of SASS files, which include the following for use when beg
 
 Feel free to use this as you wish. This is just what I use and I'll be updating this repo if I change anything in my processes. Create an issue if you come across any issues and I'll look at getting them fixed and added in.
 
+Just in case anyone was wondering I build custom themes using [Underscores](http://underscores.me/), add this folder, add the SASS to [Koala](http://koala-app.com/) and begin the build.
+
 Have fun!
