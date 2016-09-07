@@ -3,6 +3,8 @@ This is a collection of SASS files, which include the following for use when beg
 
 * Bootstrap Grid (12 Col)
 * WordPress CSS (for the CSS the editor adds in such as image alignments)
+* Basic CSS for WordPress [Gallery](https://codex.wordpress.org/The_WordPress_Gallery)
+* SASS Mixin Library
 * Typography (With mobile, table and small desktop variations)
 * Variables (Where a number of settings have been stored for easy customisation)
 * Reset (Courtesy of Eric Meyer)
