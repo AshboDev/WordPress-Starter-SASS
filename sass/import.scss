@@ -1,9 +1,14 @@
 // Reset
 @import "partials/reset";
 
-// Global Stuff
+// Variables
 @import "partials/variables";
-@import "partials/mixins";
+
+// Grid
+@import "partials/grid";
+@import "partials/xl-grid";
+
+// Global Stuff
 @import "partials/wp-core";
 @import "partials/typography";
-@import "partials/grid";
+@import "partials/mixins";

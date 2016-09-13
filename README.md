@@ -13,4 +13,10 @@ Feel free to use this as you wish. This is just what I use and I'll be updating 
 
 Just in case anyone was wondering I build custom themes using [Underscores](http://underscores.me/), add this folder, add the SASS to [Koala](http://koala-app.com/) and begin the build.
 
+## To do:
+* Form CSS
+* Create variable to toggle XL grid on and off
+
+If you have any suggestions for additional elements to be added in, create an issue with a feature tag and I'll take a look :)
+
 Have fun!
