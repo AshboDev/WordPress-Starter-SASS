@@ -111,12 +111,24 @@ a img.aligncenter {
 	z-index: 100000; /* Above WP toolbar. */
 }
 
+.sticky {
+    display: block;
+}
+
+.bypostauthor {
+    display: block;
+}
+
 .gallery {
     overflow: auto;
 
     dl + p {
         display: none;
     }
+}
+
+.gallery-caption {
+    display: block;
 }
 
 .gallery-item {
