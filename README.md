@@ -1,6 +1,7 @@
 # WordPress Starter SASS
 This is a collection of SASS files, which include the following for use when beginning a WordPress Build.
 
+* Theme Check Compliant
 * Bootstrap Grid (12 Col)
 * WordPress CSS (for the CSS the editor adds in such as image alignments)
 * Basic CSS for WordPress [Gallery](https://codex.wordpress.org/The_WordPress_Gallery)
