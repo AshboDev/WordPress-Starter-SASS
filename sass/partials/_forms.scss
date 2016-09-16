@@ -1,0 +1,48 @@
+label {
+	display: block;
+	margin-bottom: $form-input-bottom-margin / 2;
+
+	&.inline {
+		display: inline-block;
+
+		+ input {
+			display: inline-block;
+			width: auto;
+		}
+	}
+}
+
+input,
+select,
+textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: $form-input-bottom-margin;
+	font-size: 1rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+input[type=search],
+input[type=url],
+select {
+	border: $form-input-border;
+	background: #fff;
+	border-radius: $form-input-border-radius;
+	box-shadow: none;
+	line-height: $form-input-height;
+	height: $form-input-height;
+	padding: $form-input-padding;
+	font-size: 1rem;
+}
+
+textarea {
+	padding: 10px;
+	line-height: 1rem;
+	border: $form-input-border;
+	background: #fff;
+	border-radius: $form-input-border-radius;
+	min-height: 150px;
+}
