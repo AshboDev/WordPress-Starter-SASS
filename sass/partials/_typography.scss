@@ -13,6 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	line-height: $base-line-height;
 	margin: 0 0 1rem 0;
+	
+	a {
+		color: $base-link-color;
+		text-decoration: none;
+		border-bottom: 1px solid $base-link-color;
+
+		&:hover {
+			border: 0;
+		}
+	}
 }
 
 ol,
@@ -60,16 +70,6 @@ code {
 
 em {
 	font-style: italic;
-}
-
-a {
-	color: $base-link-color;
-	text-decoration: none;
-	border-bottom: 1px solid $base-link-color;
-
-	&:hover {
-		border: 0;
-	}
 }
 
 @media screen and (min-width: $screen-sm-min) {
