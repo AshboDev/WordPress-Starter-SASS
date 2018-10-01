@@ -1,6 +1,8 @@
 # WordPress Starter SASS
 This is a collection of SASS files, which include the following for use when beginning a WordPress Build.
 
+*update* - This will soon be moved to Boostrap 4. Feel free to use this for now as I'll create a new repo for BS4 and link this to it.
+
 * Theme Check Compliant
 * Bootstrap Grid (12 Col)
 * XL Grid with 1570px container @ 1600px
